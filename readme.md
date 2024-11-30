@@ -1,0 +1,1 @@
+Piccolo progetto per l'associazione amici della bicicletta, al momento statico, dove adremo ad aggiungere nuove funzionalità
