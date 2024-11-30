@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chi Siamo - Associazione Amici della Bicicletta</title>
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -47,7 +48,7 @@
                 <!-- Sezione Membri -->
                 <div class="container py-3">
                     <div class="row">
-                        <div class="col-md-3 mb-4">
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
                             <div class="card">
                                 <div class="card-body py-3">
                                     <h5 class="card-title">Gianni Vargiu</h5>
@@ -57,7 +58,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 mb-4">
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
                             <div class="card">
                                 <div class="card-body py-3">
                                     <h5 class="card-title">Maurizio Malavasi</h5>
@@ -67,7 +68,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 mb-4">
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
                             <div class="card">
                                 <div class="card-body py-3">
                                     <h5 class="card-title">Pinella Depau</h5>
@@ -77,7 +78,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 mb-4">
+                        <div class="col-12 col-sm-6 col-lg-3 mb-4">
                             <div class="card">
                                 <div class="card-body py-3">
                                     <h5 class="card-title">Pinella Depau</h5>
@@ -92,10 +93,10 @@
             </div>
             <!-- sezione storica -->
             <div class="container py-3">
-                <div class="row">
+                <div class="row gy-4">
                     <div class="col-12">
                         <div class="content-history top text-center">
-                            <h2>Testo</h2>
+                            <h2>Storia</h2>
                             <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
                                 necessitatibus
                                 obcaecati tempore
@@ -103,34 +104,57 @@
                                 impedit
                                 et suscipit vero consectetur cumque?</p>
                         </div>
-
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="content-history-right">
-                            <img src="" alt="">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../img/IMG-20241129-WA0021.jpg" class="d-block w-100 img-fluid"
+                                            alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/IMG-20241129-WA0023.jpg" class="d-block w-100 img-fluid"
+                                            alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../img/IMG-20241129-WA0027.jpg" class="d-block w-100 img-fluid"
+                                            alt="...">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <div class="content-histori-left">
-                            <h2>prova</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos sunt provident magnam
+                    <div class="col-12 col-md-6 d-flex align-items-center">
+                        <div class="content-histori-left text-center">
+                            <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit. Quos sunt
+                                provident
+                                magnam
                                 nulla
-                                ipsa veritatis quidem at fugiat incidunt eveniet quibusdam alias ipsam nisi est, rerum
-                                voluptatem consequuntur placeat sed.</p>
+                                ipsa veritatis quidem at fugiat incidunt eveniet quibusdam alias ipsam nisi est,
+                                rerum
+                                voluptatem consequuntur placeat sed. Lorem ipsum dolor sit, amet consectetur
+                                adipisicing
+                                elit.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <div class="content-histori-left">
-                            <h2>prova</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos sunt provident magnam
+                    <div class="col-12 col-md-6 d-flex align-items-center">
+                        <div class="content-histori-left text-center">
+                            <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos sunt
+                                provident
+                                magnam
                                 nulla
-                                ipsa veritatis quidem at fugiat incidunt eveniet quibusdam alias ipsam nisi est, rerum
-                                voluptatem consequuntur placeat sed.</p>
+                                ipsa veritatis quidem at fugiat incidunt eveniet quibusdam alias ipsam nisi est,
+                                rerum
+                                voluptatem consequuntur placeat sed. Lorem ipsum dolor, sit amet consectetur
+                                adipisicing
+                                elit.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="content-history-right">
-                            <img src="" alt="">
+                            <img src="../img/IMG-20241129-WA0027.jpg" class="img-fluid w-100" alt="">
                         </div>
                     </div>
                 </div>
@@ -157,6 +181,10 @@
     <footer>
         <p class="m-0">&copy; 2024 Associazione Amici della Bicicletta. Tutti i diritti riservati.</p>
     </footer>
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
