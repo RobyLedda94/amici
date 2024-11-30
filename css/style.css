@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* ----------------------------------------------------------------------------------- */
 /* HOMEPAGE */
 /* HEADER */
@@ -23,7 +33,7 @@ header {
 }
 
 header .menu li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 header .menu a {
@@ -35,10 +45,12 @@ header .menu a {
 
 header .menu a:hover {
     color: #2455af;
+    text-decoration: underline;
 }
 
 /* ----------------------------------------------------------------------------------------- */
 /* MAIN */
+
 
 /* Jumbo - Overlay */
 .jumbo {
@@ -55,7 +67,7 @@ header .menu a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
     /* Overlay semi-trasparente */
     z-index: 1;
 }
@@ -107,7 +119,10 @@ header .menu a:hover {
 
 .card-body {
     min-height: 190px;
-    background: #72a2fc;
+    padding: 20px;
+    /* Aggiungi padding per dare respiro al contenuto */
+    background: #f1f1f1;
+    /* Colore di sfondo più neutro per il testo */
 
 }
 
@@ -118,7 +133,6 @@ header .menu a:hover {
     /* Aumenta l'ombra al passaggio del mouse */
 }
 
-/* Immagine della card */
 
 
 /* Footer */
@@ -126,13 +140,16 @@ footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ------------------------------------------------------------------------------------------------- */
 /* ABOUT */
 
 .content-history-right {
-    background: red;
+    background: #7ca2fc;
     height: 100%;
 }
