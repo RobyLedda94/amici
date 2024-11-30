@@ -1,0 +1,129 @@
+/* Reset di base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* HEADER */
+
+header {
+    background: #72a2fc;
+    color: #fff;
+    font-size: 14px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    width: 100%;
+
+
+}
+
+header .menu li {
+    margin: 0 10px;
+}
+
+header .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header .menu a:hover {
+    color: #2455af;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* MAIN */
+
+/* Jumbo - Overlay */
+.jumbo {
+    position: relative;
+    background-image: url(../img/poetto-jumbo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.jumbo .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Overlay semi-trasparente */
+    z-index: 1;
+}
+
+.jumbo .container {
+    position: relative;
+    z-index: 2;
+    /* Porta il contenuto sopra l'overlay */
+}
+
+/* Contenuto principale */
+.content-main {
+    color: white;
+}
+
+.content-main .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #72a2fc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+}
+
+.content-main .button:hover {
+    background: #4a8dff;
+    transform: scale(1.1);
+}
+
+/* Stile per il logo */
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+
+/* Card */
+.card {
+    border: none;
+    border-radius: 10px;
+    /* Rendi gli angoli delle card arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Aggiungi un'ombra leggera */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-body {
+    min-height: 190px;
+    background: #72a2fc;
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    /* Solleva leggermente la card al passaggio del mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    /* Aumenta l'ombra al passaggio del mouse */
+}
+
+/* Immagine della card */
+
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
