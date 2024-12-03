@@ -102,8 +102,7 @@ header .menu a:hover {
 
 /* Stile per il logo */
 .logo {
-    max-width: 200px;
-    height: auto;
+    width: 90px;
 }
 
 
@@ -133,6 +132,10 @@ header .menu a:hover {
     /* Aumenta l'ombra al passaggio del mouse */
 }
 
+.carousel-item {
+    transition: transform 1s ease-in-out;
+}
+
 
 
 /* Footer */
@@ -153,3 +156,12 @@ footer {
     background: #7ca2fc;
     height: 100%;
 } */
+
+
+.bg-light {
+    margin: 70px 0 25px 0;
+}
+
+
+/* --------------------------------------------------- */
+/* EVENTS */
